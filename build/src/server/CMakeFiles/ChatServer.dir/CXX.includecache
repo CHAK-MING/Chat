@@ -35,6 +35,8 @@ friendmodel.h
 ../include/server/friendmodel.h
 groupmodel.h
 ../include/server/groupmodel.h
+redis.h
+../include/server/redis.h
 
 ../include/server/db/mysqldb.h
 muduo/base/Logging.h
@@ -83,6 +85,16 @@ string
 ../include/server/model/usermodel.h
 user.hpp
 ../include/server/model/user.hpp
+
+../include/server/redis/redis.h
+hiredis/hiredis.h
+-
+thread
+-
+functional
+-
+string
+-
 
 ../thirdparty/json.hpp
 algorithm
@@ -473,6 +485,12 @@ usermodel.h
 /home/chakming/linux/project/chatServer/src/server/model/usermodel.h
 mysqldb.h
 /home/chakming/linux/project/chatServer/src/server/model/mysqldb.h
+iostream
+-
+
+/home/chakming/linux/project/chatServer/src/server/redis/redis.cc
+redis.h
+/home/chakming/linux/project/chatServer/src/server/redis/redis.h
 iostream
 -
 

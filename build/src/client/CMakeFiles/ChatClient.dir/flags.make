@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/chakming/linux/project/chatServer/include -I/home/chakming/linux/project/chatServer/include/server -I/home/chakming/linux/project/chatServer/include/server/model -I/home/chakming/linux/project/chatServer/include/server/db -I/home/chakming/linux/project/chatServer/thirdparty 
+CXX_INCLUDES = -I/home/chakming/linux/project/chatServer/include -I/home/chakming/linux/project/chatServer/include/server -I/home/chakming/linux/project/chatServer/include/server/redis -I/home/chakming/linux/project/chatServer/include/server/model -I/home/chakming/linux/project/chatServer/include/server/db -I/home/chakming/linux/project/chatServer/thirdparty 
 

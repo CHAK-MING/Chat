@@ -52,7 +52,7 @@ int main(int argc, char **argv)
 {
     if (argc < 3)
     {
-        cerr << "command invalid! example: ./ChatClient 127.0.0.1 6000" << endl;
+        cerr << "command invalid! example: ./ChatClient 127.0.0.1 8001" << endl;
         exit(-1);
     }
 
@@ -187,7 +187,7 @@ void doRegResponse(json &responsejs)
     }
     else // 注册成功
     {
-        cout << "name register success, userid is " << responsejs["id"]
+        cout << "name register success, userid is " << responsejs["id"].get<int>()
                 << ", do not forget it!" << endl;
     }
 }

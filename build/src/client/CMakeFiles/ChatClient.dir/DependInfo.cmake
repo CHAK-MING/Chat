@@ -12,6 +12,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
   "../include/server"
+  "../include/server/redis"
   "../include/server/model"
   "../include/server/db"
   "../thirdparty"

@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/chakming/linux/project/chatServer/src/server/model/groupmodel.cc" "/home/chakming/linux/project/chatServer/build/src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cc.o"
   "/home/chakming/linux/project/chatServer/src/server/model/offlinemessagemodel.cc" "/home/chakming/linux/project/chatServer/build/src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cc.o"
   "/home/chakming/linux/project/chatServer/src/server/model/usermodel.cc" "/home/chakming/linux/project/chatServer/build/src/server/CMakeFiles/ChatServer.dir/model/usermodel.cc.o"
+  "/home/chakming/linux/project/chatServer/src/server/redis/redis.cc" "/home/chakming/linux/project/chatServer/build/src/server/CMakeFiles/ChatServer.dir/redis/redis.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,6 +20,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../include"
   "../include/server"
+  "../include/server/redis"
   "../include/server/model"
   "../include/server/db"
   "../thirdparty"
